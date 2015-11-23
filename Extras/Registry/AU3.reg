@@ -1,0 +1,68 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.au3]
+"PerceivedType"="text"
+@="AutoIt3Script"
+
+[HKEY_CLASSES_ROOT\.au3\ShellNew]
+"FileName"="Template.au3"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script]
+@="AutoIt v3 Script"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\DefaultIcon]
+@="C:\\Program Files (x86)\\AutoIt3\\Icons\\AutoIt3Script.ico"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Build]
+@="Build"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Build\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\SciTE\\Tools\\Compiler Wrapper\\CW.exe\" \"%1\" /m:0 /c:0 /s:1"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\BuildX64]
+@="Build (x64)"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\BuildX64\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\SciTE\\Tools\\Compiler Wrapper\\CW.exe\" \"%1\" /m:0 /c:1 /s:1"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Compile]
+@="Compile"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Compile\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\SciTE\\Tools\\Compiler Wrapper\\CW.exe\" \"%1\" /m:0 /c:0"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\CompileX64]
+@="Compile (x64)"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\CompileX64\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\SciTE\\Tools\\Compiler Wrapper\\CW.exe\" \"%1\" /m:0 /c:1"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Edit]
+@="Edit"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Edit\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\SciTE\\SciTE.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Open]
+@="Open"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Open\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\SciTE\\SciTE.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Run]
+@="Run"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\Run\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe\" \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\RunX64]
+@="Run (x64)"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\AutoIt3Script\shell\RunX64\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\AutoIt3_x64.exe\" \"%1\" %*"

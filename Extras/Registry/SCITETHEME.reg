@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.scitetheme]
+@="SCITETHEME.File"
+
+[HKEY_CLASSES_ROOT\SCITETHEME.File]
+@="SciTE Theme File"
+
+[HKEY_CLASSES_ROOT\SCITETHEME.File\DefaultIcon]
+@="C:\\Program Files (x86)\\AutoIt3\\SciTE\\Tools\\SciTE Theme Manager\\SciTE Theme Manager.exe,1"

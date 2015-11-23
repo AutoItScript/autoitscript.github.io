@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.session]
+@="SciTESession"
+
+[HKEY_CLASSES_ROOT\SciTESession]
+@="SciTE Session File"
+
+[HKEY_CLASSES_ROOT\SciTESession\DefaultIcon]
+@="C:\\Program Files (x86)\\AutoIt3\\SciTE\\SciTESessionLoader.exe,1"
+
+[HKEY_CLASSES_ROOT\SciTESession\shell]
+
+[HKEY_CLASSES_ROOT\SciTESession\shell\Open]
+@="Open"
+
+[HKEY_CLASSES_ROOT\SciTESession\shell\Open\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\SciTE\\SciTESessionLoader.exe\" \"%1\""

@@ -1,0 +1,4 @@
+[COMMANDS]
+-delete ICONGROUP, 169,
+-delete STRINGTABLE,,
+-delete VERSIONINFO,,

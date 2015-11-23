@@ -1,0 +1,3 @@
+﻿User-agent: *
+Disallow:
+SITEMAP: http://docs-autoitscript.rhcloud.com/sitemap.txt

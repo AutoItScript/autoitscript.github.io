@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.a3x]
+@="AutoIt3XScript"
+
+[HKEY_CLASSES_ROOT\AutoIt3XScript]
+@="AutoIt v3 Encoded Script"
+
+[HKEY_CLASSES_ROOT\AutoIt3XScript\DefaultIcon]
+@="C:\\Program Files (x86)\\AutoIt3\\Icons\\AutoIt3XScript.ico"
+
+[HKEY_CLASSES_ROOT\AutoIt3XScript\shell]
+@="Run"
+
+[HKEY_CLASSES_ROOT\AutoIt3XScript\shell\Run]
+@="Run"
+
+[HKEY_CLASSES_ROOT\AutoIt3XScript\shell\Run\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe\" \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\AutoIt3XScript\shell\RunX64]
+@="Run (x64)"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\AutoIt3XScript\shell\RunX64\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\AutoIt3_x64.exe\" \"%1\" %*"
